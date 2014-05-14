@@ -2,14 +2,14 @@ package br.com.k21;
 
 public class CalculadoraComissao {
 
-	public float calcula(float valorVenda) {
+	public float calcula(double d) {
 		
-		if (valorVenda <= 10000)
+		if (d <= 10000)
 		{
-			return (float) (valorVenda*0.05);
+			return (float) (d*0.05);
 		}
 		
-		return  (float) (valorVenda*0.06);
+		return  (float) (d*0.06);
 	}
 
 }
